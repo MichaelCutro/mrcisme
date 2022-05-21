@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+ul {
+  padding-inline-start: 0%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+button:hover {
+  opacity: 0.5;
+  color: rgb(216, 216, 216);
+} 
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  height: 45px;
+  width: 60px;
+  font-size: 20px;
+}
+
+.dropbtn:focus {
+  background-color: #ffffff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 125px;
+  overflow: auto;
+  z-index: 1;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  padding: 5px 5px;
+  padding-left: 15px;;
+  display: block;
+}
+
+#shadow:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#shadow:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#shadow:hover {
+  color: rgb(175, 175, 175);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#shadow:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#books:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#books:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#books:hover {
+  color: rgb(175, 175, 175);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#books:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.show {
+    display: block;
+  }
+
+  @media only screen and (max-width: 950px) {
+    .content {
+       padding-left: 5%;
+       padding-right: 5%;
+    }
+ }
+
+  @media only screen and (max-width: 600px) {
+    .content {
+       padding-left: 5%;
+       padding-right: 5%;
+    }
+ }
+
+
