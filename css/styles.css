@@ -21,6 +21,12 @@ ul {
   padding-inline-start: 0%;
 }
 
+li {
+  text-indent: -30px;
+  margin-left: 30px;
+  padding: 5px;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -29,7 +35,7 @@ ul {
 }
 
 .content {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   line-height: 1.5;
 }
@@ -70,7 +76,7 @@ button:hover {
 }
 
 .dropdown-content a {
-  padding: 5px 5px;
+  padding: 2px 2px;
   padding-left: 15px;;
   display: block;
 }
@@ -129,15 +135,15 @@ button:hover {
 
   @media only screen and (max-width: 950px) {
     .content {
-       padding-left: 5%;
-       padding-right: 5%;
+       padding-left: 0.5%;
+       padding-right: 0.5%;
     }
  }
 
   @media only screen and (max-width: 600px) {
     .content {
-       padding-left: 5%;
-       padding-right: 5%;
+       padding-left: 0.5%;
+       padding-right: 0.5%;
     }
  }
 
